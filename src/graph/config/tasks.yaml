@@ -1,0 +1,33 @@
+energy_research_task:
+  description: >
+    Use o SerperDevTool para pesquisar a previsão de consumo
+    energético global por tipo de fonte para o ano de 2025. 
+    As fontes de energia devem incluir: Petróleo e derivados, 
+    Carvão, Gás natural, Hidráulica, Nuclear, Biomassa e Outras 
+    renováveis (incluindo solar, eólica e geotérmica). As 
+    pesquisas na web devem ser feitas em fontes renomadas e 
+    retornar porcentagens para cada tipo de fonte.
+  expected_output: >
+    Um dicionário com as porcentagens de consumo energético 
+    previstas para cada fonte em 2025:
+    {
+      "Petróleo e Derivados":   <valor>%,
+      "Carvão":                <valor>%,
+      "Gás Natural":            <valor>%,
+      "Hidráulica":             <valor>%,
+      "Nuclear":                <valor>%,
+      "Biomassa":              <valor>%,
+      "Outras Renováveis":     <valor>%
+      }
+  agent: researcher_agent
+
+graph_creation_task:
+  description: >
+    Utilize os dados de consumo energético previstos para 2025 para criar
+    um gráfico de pizza que ilustre a distribuição percentual de cada tipo 
+    de fonte de energia : Petróleo e derivados, Carvão, Gás natural, 
+    Hidráulica, Nuclear, Biomassa e Outras renováveis.
+  expected_output: >
+    Um gráfico de pizza salvo como arquivo PNG que mostra a distribuição 
+    percentual da matriz energética em 2025.
+  agent: graph_agent

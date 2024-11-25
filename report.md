@@ -1,0 +1,1 @@
+Um gráfico de pizza salvo como arquivo PNG que mostra a distribuição percentual da matriz energética em 2025, intitulado "Distribuição Percentual da Matriz Energética em 2025", e que pode ser encontrado com o nome "distribuição_percentual_da_matriz_energética_em_2025.png".
